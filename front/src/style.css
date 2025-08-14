@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "./normalize.css";
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --bg-nav: #3e3f29;
+  --bg-nav-hover: #4a4c2c;
+  --bg: #ffffff;
+  --white: #ffffff;
+  --yellow: #fedb7c;
+  --black: #000;
+  --sc: #f2e5d0;
+  --brown: #725b3a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
+}
+
+.containerr {
+  padding: 16px 40px;
+}
